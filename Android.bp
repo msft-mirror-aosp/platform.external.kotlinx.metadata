@@ -1,0 +1,9 @@
+package {
+    default_visibility: [":__subpackages__"]
+}
+
+java_import_host {
+    name: "kotlinx_metadata_jvm",
+    jars: ["kotlinx-metadata-jvm-0.1.0.jar"],
+    visibility: ["//external/kotlinx.atomicfu"],
+}
