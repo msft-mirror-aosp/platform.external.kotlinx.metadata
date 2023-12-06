@@ -22,6 +22,6 @@ java_import_host {
     visibility: [
         "//external/dagger2",
         "//external/kotlinx.atomicfu",
-        "//prebuilts/sdk/current/androidx",
+        "//prebuilts/sdk/current/androidx:__subpackages__",
     ],
 }
